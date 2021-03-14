@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ship-defictation</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fm.revealator.jquery.min.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="fm.revealator.jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function (){ 
+            $(".prize_block_first").fadeIn(10000,function(){
+            //$("#slide").animate({width:'toggle'},350);
+            })
+            // $(".defictation-image").show("slide", { direction: "right" }, 3000);
+            // $('.defictation-image').hide('slide', {direction: 'right'}, 1000);
+            // $('.defictation-image').hide(1000,function(){
+            //         $(".defictation-image").show(1000);
+            //         $(".defictation-image").show("slide", { direction: "left" }, 3000);
+            // });
+        });
+
+    </script>
 </head>
 
 <body>
@@ -21,7 +39,9 @@
                 объем ремонтных работ.
             </div>
         </div>
-        <div class="defictation-image"></div>
+        <div class="revealator-slideleft revealator-once revealator-below">
+            <div class="defictation-image"></div>
+        </div> 
     </div>
     <div class="defictation_block">
         <div class="defictation_block_title">Такая проверка необходима для судов, больше 20 метров, находящихся на учёте у Речного Регистра. Дифектацию может пройти любой вид судна, из основных это: толкачи, баржи, паромы, краны, пантоны, земснаряды</div>
@@ -88,7 +108,7 @@
         <div class="example_block_title">
             РЕЗУЛЬТАТ РАБОТЫ
         </div>
-        <object><embed class="example" src="images/документация.pdf" width="900px" height="680px" alt="1"></object>
+        <object><embed class="example" src="images/document.pdf" width="900px" height="680px" alt="1"></object>
     </div>
     <div class="photos_block_title">
         ФОТООТЧЕТ
@@ -127,14 +147,14 @@
         <div class="contact_block">
             <div class="contact_block_text">
                 <p class="contact_block_title1">Контакты</p>
-                <p class="contact_block_title">russkiy.flot@bk.ru</p>
-                <p class="contact_block_title">+7(927)038-60-44</p>
+                <p class="contact_block_title">Почта:<br> russkiy.flot@bk.ru</br></p>
+                <p class="contact_block_title">Телефон:<br> +7(927)038-60-44</br></p>
                 <p class="contact_block_title">Антон Игоревич</p>
             </div>
         </div>
         <div class="license_block">
             <div class="license_block_text">ЛИЦЕНЗИИ</div>
-            <img class="license_block_img" src="/images/certificate.jpg" alt="">
+            <img class="license_block_img" src="images/certificate.jpg" alt="">
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
