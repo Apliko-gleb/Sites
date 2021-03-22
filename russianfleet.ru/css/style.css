@@ -31,13 +31,13 @@ body {
 }
 
 .header_title {
-    padding-top: 41px;
+    padding-top: 25px;
     margin-left: 7%;
     font-family: Roboto-bold;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 34px;
+    line-height: 36px;
     color: #000000;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 .defictation-image {
-    margin-left: 57.19%;
+    margin-left: 55.19%;
     float: right;
     position: absolute;
     width: 100%;
@@ -104,7 +104,7 @@ body {
 
 .custom_block_corpus_img {
     background: #DBFFFF;
-    margin-left: 0%;
+    margin-left: -10%;
     float: left;
     width: 100%;
     max-width: 1440px;
@@ -116,7 +116,7 @@ body {
 
 .custom_block_corpus_text {
     float: right;
-    margin: 15% 5% 10% 0%;
+    margin: 15% -15% 20% 20%;
     width: 30%;
     font-family: Roboto;
     font-style: normal;
@@ -134,7 +134,7 @@ body {
 
 .custom_block_anchor_img {
     background: #DBFFFF;
-    margin-left: 5%;
+    margin-left: -10%;
     float: right;
     width: 1440px;
     height: 500px;
@@ -160,9 +160,10 @@ body {
 }
 
 .custom_block_system_img {
+    margin-left: 0%;
     background: #DBFFFF;
     float: left;
-    width: 100%;
+    width: 1300px;
     max-width: 1440px;
     height: 500px;
     left: 0px;
@@ -171,7 +172,7 @@ body {
 
 .custom_block_system_text {
     float: right;
-    margin: 20% 5% 10% 30%;
+    margin: 20% 5% 10% 20%;
     width: 30%;
     font-family: Roboto;
     font-style: normal;
@@ -183,6 +184,7 @@ body {
 }
 
 .methods_block {
+    margin-top: 5%;
     padding-bottom: 40px;
     background: #DBFFFF;
     display: flex;
@@ -327,7 +329,7 @@ body {
 }
 
 .prize_block_first {
-    margin: 8% 0% 0% 10%;
+    margin: 3% 0% 0% 10%;
     width: 80%;
     height: auto;
     background: #FFFFFF;
@@ -502,7 +504,7 @@ span.ant-dot {
 
 .geography_block_img {
     z-index: 10;
-    width: 45%;
+    width: 50%;
     height: 100%;
     background-image: url('../images/vector\ 5.png');
 }
@@ -530,7 +532,7 @@ span.ant-dot {
 }
 
 .last_block {
-    height: 100%
+    height: 100%;
     background: #DBFFFF;
     display: flex;
 }
@@ -538,8 +540,8 @@ span.ant-dot {
 .contact_block {
     margin-left: 10%;
     margin-top: 5%;
-    width: 610px;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     left: 100px;
     top: 3775px;
     background: #000000;
@@ -580,12 +582,12 @@ span.ant-dot {
 }
 
 .license_block_img {
-    width: 100%;
-    height: 100%;
+    width: 540px;
+    height: 800px;
     margin-top: 10%;
     margin-left: -20%;
     background-image: url('/images/certificate.jpg');
-    background-size: 540px auto;
+    background-size: auto;
 }
 
 
@@ -602,8 +604,9 @@ span.ant-dot {
         margin-bottom: 100px;
     }
     .header_title {
-        width: 50%;
-        padding-top: 5%;
+        height: 70%;
+        width: 60%;
+        padding-top: 2%;
         font-size: 28px;
         line-height: 30px;
     }
@@ -612,14 +615,14 @@ span.ant-dot {
         height: 140px;
     }
     .defictation_subtitle {
-        padding-top: 20%;
+        padding-top: 10%;
         margin-top: 0px;
         margin-left: 0%;
         width: 100%;
         height: 300px;
     }
     .defictation-image {
-        margin-top: 80%;
+        margin-top: 82%;
         margin-left: 0%;
         width: 100%;
         height: 300px;
@@ -636,7 +639,7 @@ span.ant-dot {
         color: #FFFFFF;
     }
     .defictation_title {
-        height: 75%;
+        height: 95%;
         display: flex;
         position: relative;
         overflow-x: hidden;
@@ -644,8 +647,6 @@ span.ant-dot {
     .defictation_block_title {
         width: 316px;
         height: 168px;
-        left: 49px;
-        top: 756px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
@@ -655,7 +656,7 @@ span.ant-dot {
     }
     .defictation_block {
         height: 150px;
-        margin: 20% 0% 0% 13%;
+        margin: 5% 0% 0% 13%;
     }
     .defictation_block_title {
         width: 80%;
@@ -669,67 +670,89 @@ span.ant-dot {
         color: #000000;
     }
     .custom_block_corpus {
-        margin-top: 50%;
+        margin-top: 80%;
         display: flex;
     }
     .custom_block_corpus_img {
         background: #DBFFFF;
-        margin-left: -2%;
+        margin-left: 0%;
         float: none;
-        width: 100%;
-        height: 400px;
+        width: 500px;
+        height: 600px;
+        background-size: 500px auto;
         background: url(../images/rectangle\ 4.png);
     }
     .custom_block_corpus_text {
         float: none;
-        margin: 65% 0% 0% 10%;
+        margin: 65% 0% 0% 5%;
         width: 316px;
         height: 130px;
         font-size: 22px;
     }
     .custom_block_anchor {
-        margin-top: 10%;
+        margin-top: 0%;
         display: flex;
     }
     .custom_block_anchor_img {
         background: #DBFFFF;
-        margin-left: -3%;
+        margin-left: 5%;
         float: none;
         width: 414px;
-        height: 420px;
+        background-size: 100% auto;
+        height: 600px;
         background: url(../images/rectangle\ 5.png);
     }
     .custom_block_anchor_text {
         float: none;
-        margin: 70% 10% 0% 10%;
+        margin: 70% 10% 0% 5%;
         width: 316px;
         height: 130px;
         font-size: 22px;
         line-height: 26px;
     }
     .custom_block_system {
-        margin-top: 10%;
+        margin-left: 0%;
+        margin-top: 0%;
         display: flex;
     }
     .custom_block_system_img {
         background: #DBFFFF;
         float: none;
-        width: 100%;
-        height: 400px;
+        width: 500px;
+        height: 300px;
+        background-size: 100% 500px;
         background: url(../images/rectangle\ 6.png);
     }
     .custom_block_system_text {
         float: none;
-        margin: 50% 0% 0% 10%;
+        margin: 50% 0% 0% 5%;
         width: 316px;
         font-size: 22px;
         line-height: 26px;
+    }
+    .custom_block_anchor_img,
+    .custom_block_corpus_img,
+    .custom_block_system_img {
+        float: none;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    .custom_block_anchor_text,
+    .custom_block_corpus_text,
+    .custom_block_system_text {
+        margin-top: -20%;
+    }
+    .revealator-slideright,
+    .revealator-slideleft {
+        transform: translate(0, 0)!important;
+        opacity: 1 !important;
     }
     .methods_block {
         background: #DBFFFF;
         display: flow-root;
     }
     .methods_block_title {
+        margin-bottom: 20%;
         margin-left: 10%;
         font-size: 36px;
         line-height: 42px;
@@ -737,10 +760,10 @@ span.ant-dot {
     }
     .methods_block_first {
         float: none;
-        margin: 40px 10px 10px 0%;
+        transform: scale(0.6);
+        margin: 40px 10px 10px 1%;
         padding-right: 10%;
         width: 100%;
-        height: 100%;
         background: #000000;
         border-radius: 0px;
     }
@@ -767,7 +790,8 @@ span.ant-dot {
     }
     .methods_block_second {
         float: none;
-        margin: 40px 10px 10px 0%;
+        transform: scale(0.6);
+        margin: 40px 10px 10px 1%;
         width: 100%;
         height: 450px;
         background: #000000;
@@ -796,7 +820,8 @@ span.ant-dot {
     }
     .methods_block_third {
         float: none;
-        margin: 40px 10px 10px 0%;
+        transform: scale(0.6);
+        margin: 40px 10px 10px 1%;
         width: 100%;
         height: 450px;
         background: #000000;
@@ -824,7 +849,7 @@ span.ant-dot {
         color: #FFFFFF;
     }
     .prize_block {
-        margin-top: 20px;
+        margin-top: 0px;
         width: 100%;
         height: 550px;
     }
@@ -937,6 +962,7 @@ span.ant-dot {
         color: #000000;
     }
     .license_block_img {
-        margin-left: -2.5%;
+        transform: scale(0.5);
+        margin-left: -30%;
     }
 }

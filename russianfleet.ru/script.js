@@ -242,3 +242,4 @@ Ant.initialize = function(that) {
 };
 
 new Ant();
+//ANIMATION
